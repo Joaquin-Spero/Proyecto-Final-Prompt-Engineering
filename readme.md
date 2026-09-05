@@ -9,6 +9,7 @@ A partir de un prompt con salida dirigida estandarizada en formato **JSON**, la 
 - Una lista de etiquetas (tags) optimizadas.
 
 ## 📂 Estructura del Proyecto
+
 ```text
 proyecto-final-ia/
 ├── app.py              # Código fuente principal de la aplicación Streamlit
@@ -16,18 +17,15 @@ proyecto-final-ia/
 ├── .env.example        # Plantilla de variables de entorno
 ├── .gitignore          # Archivos excluidos del control de versiones
 └── README.md           # Documentación del proyecto
+```
 
-🛠️ Requisitos de Instalación
-Clonar este repositorio.
+## 🛠️ Requisitos de Instalación
+1. Clonar este repositorio.
+2. Crear un entorno virtual (opcional pero recomendado).
+3. Instalar las dependencias ejecutando:
+   `pip install -r requirements.txt`
+4. Renombrar el archivo `.env.example` a `.env` y colocar una API Key válida de OpenAI.
 
-Crear un entorno virtual (opcional pero recomendado).
-
-Instalar las dependencias ejecutando:
-pip install -r requirements.txt
-
-Renombrar el archivo .env.example a .env y colocar una API Key válida de OpenAI.
-
-🚀 Ejecución
+## 🚀 Ejecución
 Para levantar el proyecto en local, ejecutar el siguiente comando en la terminal:
-python -m streamlit run app.py
-
+`python -m streamlit run app.py`
